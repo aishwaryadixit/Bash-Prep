@@ -1,0 +1,12 @@
+apple
+apple
+bat
+bat
+bat
+cat
+dog
+frog
+apple
+cat
+dog
+dog

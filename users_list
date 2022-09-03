@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Display a list of all the users on your system who log in with the Bash shell as a default.
+
+for line in $(cat /etc/passwd | grep bash | cut -d ":" -f1);    
+do
+    echo $line 
+done
+
+

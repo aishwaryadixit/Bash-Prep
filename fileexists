@@ -1,0 +1,10 @@
+#!/bin/bash
+read -p "Name of file:" n
+echo " checking if a file exists"
+if [ $(find / -name $n) ];
+    then
+        echo "file is Present"
+    else
+        echo " Not present"
+fi
+

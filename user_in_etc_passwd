@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+user="root"
+if [ "$(cut -d ':' -f1 /etc/passwd | grep "$user")" ]; then
+	printf "User exists \n"
+fi

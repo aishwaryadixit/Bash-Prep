@@ -1,0 +1,6 @@
+
+Windows users can double-click on the sqlite3.exe icon to #the sqlite3.exe 
+without command-line #arguments, 
+#ession exits.
+To use a persistent disk file as the database, enter the 
+
